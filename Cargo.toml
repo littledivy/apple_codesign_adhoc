@@ -5,7 +5,7 @@ edition = "2021"
 authors = ["Divy Srivastava <dj.srivastava23@gmail.com>"]
 description = "Ad-hoc codesign for arm64 Mach-O binaries."
 license = "MIT"
-repository = "https://github.com/denoland/sui"
+repository = "https://github.com/littledivy/apple_codesign_adhoc"
 
 [dependencies]
 zerocopy = { version = "0.7", features = ["derive"] }
