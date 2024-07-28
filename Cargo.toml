@@ -1,0 +1,17 @@
+[package]
+name = "apple_codesign_adhoc"
+version = "0.1.0"
+edition = "2021"
+authors = ["Divy Srivastava <dj.srivastava23@gmail.com>"]
+description = "Ad-hoc codesign for arm64 Mach-O binaries."
+license = "MIT"
+repository = "https://github.com/denoland/sui"
+
+[dependencies]
+zerocopy = { version = "0.7", features = ["derive"] }
+sha2 = "0.10"
+
+[lib]
+path = "lib.rs"
+
+
